@@ -19,6 +19,32 @@ public class Tax1099IntDocumentGenerator {
 
     }
 
+    public static PdfOptions getPdfOptions( ) {
+
+        // See https://www.taxdochub.com/pdf-options.html
+
+        PdfOptions pdfOptions = new PdfOptions( );
+
+        pdfOptions.setTriFold( true );
+        pdfOptions.setWithAddresses( true );
+
+        pdfOptions.setWithQrCode( true );
+        pdfOptions.setQrStyle( PdfOptions.QR_STYLE_PORTRAIT );
+        // pdfOptions.setQrStyle( PdfOptions.QR_STYLE_LANDSCAPE );
+
+        pdfOptions.setWithJsonInside( true ) ;
+
+        pdfOptions.setWithInstructions( true );
+
+        pdfOptions.setWithITDStamp( false );
+        // pdfOptions.setItdStampType( PdfOptions.ITD_TYPE_LOGO );
+        // pdfOptions.setItdStampType( PdfOptions.ITD_TYPE_TEXT );
+
+        pdfOptions.setMaskTin( true );
+
+        return pdfOptions;
+
+    }
     public static byte[] sampleQrAsPng( ) {
 
         // -----------------------------------------------------------------
@@ -49,8 +75,11 @@ public class Tax1099IntDocumentGenerator {
 
         String watermarkText = "Sample"; // Empty string for no watermark
 
+        PdfOptions pdfOptions = getPdfOptions( );
+
         Tax1099IntPdfBuilder pdfBuilder = new Tax1099IntPdfBuilder( );
-        byte[] pdfBytes = pdfBuilder.build( taxDataList, watermarkText );
+
+        byte[] pdfBytes = pdfBuilder.build( taxDataList, pdfOptions, watermarkText );
 
         String filePath = "samples/Tax1099Int.sample.pdf";
         FileUtils.bytesToFile( pdfBytes, filePath );
