@@ -1,0 +1,79 @@
+{
+  "taxYear" : 2025,
+  "accountId" : "17-035-0104",
+  "taxFormId" : "8267336",
+  "taxFormDate" : "2025-12-31",
+  "issuer" : {
+    "tin" : "00-0970235",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "Maggio and Sons"
+    },
+    "address" : {
+      "line1" : "637 Hayes Course",
+      "city" : "New Lowell",
+      "region" : "PA",
+      "postalCode" : "52220"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "mikaela.mckenzie@yahoo.com"
+  },
+  "recipient" : {
+    "tin" : "000-05-7908",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Laquanda",
+      "last" : "Yost"
+    },
+    "address" : {
+      "line1" : "33567 Daugherty Crossing",
+      "city" : "West Bertram",
+      "region" : "MS",
+      "postalCode" : "22507"
+    },
+    "email" : "jennette.walker@gmail.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "foreignAccountTaxCompliance" : true,
+  "accountNumber" : "841-22976-3",
+  "payerRtn" : "payerRtn",
+  "interestIncome" : 200,
+  "earlyWithdrawalPenalty" : 300,
+  "usBondInterest" : 400,
+  "federalTaxWithheld" : 500,
+  "investmentExpenses" : 600,
+  "foreignTaxPaid" : 700,
+  "foreignCountry" : "foreignCountry",
+  "taxExemptInterest" : 800,
+  "specifiedPabInterest" : 900,
+  "marketDiscount" : 1000,
+  "bondPremium" : 1100,
+  "usBondPremium" : 1200,
+  "taxExemptBondPremium" : 1300,
+  "cusipNumber" : "cusipNumber",
+  "stateAndLocal" : [ {
+    "stateCode" : "AA",
+    "state" : {
+      "taxWithheld" : 1400,
+      "taxId" : "24-285118",
+      "income" : 1500
+    },
+    "local" : {
+      "taxWithheld" : 1600,
+      "localityName" : "West Samella",
+      "income" : 1700
+    }
+  } ],
+  "foreignIncomes" : [ {
+    "description" : "Description",
+    "amount" : 1800
+  } ],
+  "stateTaxExemptIncome" : [ {
+    "description" : "Description",
+    "amount" : 1900
+  } ],
+  "secondTinNotice" : true
+}

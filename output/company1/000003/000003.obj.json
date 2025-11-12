@@ -1,0 +1,79 @@
+{
+  "taxYear" : 2025,
+  "accountId" : "05-051-6303",
+  "taxFormId" : "8679223",
+  "taxFormDate" : "2025-12-31",
+  "issuer" : {
+    "tin" : "00-0970235",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "Maggio and Sons"
+    },
+    "address" : {
+      "line1" : "637 Hayes Course",
+      "city" : "New Lowell",
+      "region" : "PA",
+      "postalCode" : "52220"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "mikaela.mckenzie@yahoo.com"
+  },
+  "recipient" : {
+    "tin" : "000-95-2410",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Loraine",
+      "last" : "Gerhold"
+    },
+    "address" : {
+      "line1" : "6592 Jerica Estate",
+      "city" : "Port Brockfurt",
+      "region" : "MA",
+      "postalCode" : "31026"
+    },
+    "email" : "francoise.hauck@yahoo.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "foreignAccountTaxCompliance" : true,
+  "accountNumber" : "715-14853-4",
+  "payerRtn" : "payerRtn",
+  "interestIncome" : 200,
+  "earlyWithdrawalPenalty" : 300,
+  "usBondInterest" : 400,
+  "federalTaxWithheld" : 500,
+  "investmentExpenses" : 600,
+  "foreignTaxPaid" : 700,
+  "foreignCountry" : "foreignCountry",
+  "taxExemptInterest" : 800,
+  "specifiedPabInterest" : 900,
+  "marketDiscount" : 1000,
+  "bondPremium" : 1100,
+  "usBondPremium" : 1200,
+  "taxExemptBondPremium" : 1300,
+  "cusipNumber" : "cusipNumber",
+  "stateAndLocal" : [ {
+    "stateCode" : "AA",
+    "state" : {
+      "taxWithheld" : 1400,
+      "taxId" : "18-441934",
+      "income" : 1500
+    },
+    "local" : {
+      "taxWithheld" : 1600,
+      "localityName" : "Adrianetown",
+      "income" : 1700
+    }
+  } ],
+  "foreignIncomes" : [ {
+    "description" : "Description",
+    "amount" : 1800
+  } ],
+  "stateTaxExemptIncome" : [ {
+    "description" : "Description",
+    "amount" : 1900
+  } ],
+  "secondTinNotice" : true
+}

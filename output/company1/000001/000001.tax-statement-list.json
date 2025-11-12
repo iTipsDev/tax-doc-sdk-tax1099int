@@ -1,0 +1,89 @@
+{
+  "statements" : [ {
+    "forms" : [ {
+      "tax1099Int" : {
+        "taxYear" : 2024,
+        "corrected" : false,
+        "accountId" : "86-038-9331",
+        "issuer" : {
+          "tin" : "00-0217588",
+          "partyType" : "BUSINESS",
+          "businessName" : {
+            "name1" : "Langworth LLC"
+          },
+          "address" : {
+            "line1" : "874 Sheldon Curve",
+            "city" : "Tonjaburgh",
+            "region" : "NE",
+            "postalCode" : "86799"
+          },
+          "phone" : {
+            "number" : "555-867-5309",
+            "primary" : false
+          },
+          "email" : "stevie.berge@gmail.com"
+        },
+        "recipient" : {
+          "tin" : "000-85-7380",
+          "partyType" : "INDIVIDUAL",
+          "individualName" : {
+            "first" : "Rhonda",
+            "last" : "Kulas"
+          },
+          "address" : {
+            "line1" : "21949 Spencer Island",
+            "city" : "Diannaberg",
+            "region" : "AL",
+            "postalCode" : "46560"
+          },
+          "phone" : {
+            "primary" : false
+          },
+          "email" : "willa.hoeger@gmail.com"
+        },
+        "attributes" : [ ],
+        "links" : [ ],
+        "foreignAccountTaxCompliance" : true,
+        "accountNumber" : "154-49922-5",
+        "payerRtn" : "payerRtn",
+        "interestIncome" : 200,
+        "earlyWithdrawalPenalty" : 300,
+        "usBondInterest" : 400,
+        "federalTaxWithheld" : 500,
+        "investmentExpenses" : 600,
+        "foreignTaxPaid" : 700,
+        "foreignCountry" : "foreignCountry",
+        "taxExemptInterest" : 800,
+        "specifiedPabInterest" : 900,
+        "marketDiscount" : 1000,
+        "bondPremium" : 1100,
+        "usBondPremium" : 1200,
+        "taxExemptBondPremium" : 1300,
+        "cusipNumber" : "cusipNumber",
+        "stateAndLocal" : [ {
+          "stateCode" : "AA",
+          "state" : {
+            "taxWithheld" : 1400,
+            "taxId" : "13-313997",
+            "income" : 1500
+          },
+          "local" : {
+            "taxWithheld" : 1600,
+            "localityName" : "Leannonbury",
+            "income" : 1700
+          }
+        } ],
+        "foreignIncomes" : [ {
+          "description" : "Description",
+          "amount" : 1800
+        } ],
+        "stateTaxExemptIncome" : [ {
+          "description" : "Description",
+          "amount" : 1900
+        } ],
+        "secondTinNotice" : true
+      }
+    } ],
+    "attributes" : [ ]
+  } ]
+}
