@@ -1,0 +1,79 @@
+{
+  "taxYear" : 2025,
+  "accountId" : "61-663-0765",
+  "taxFormId" : "7941848",
+  "taxFormDate" : "2025-12-31",
+  "issuer" : {
+    "tin" : "00-0970235",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "Maggio and Sons"
+    },
+    "address" : {
+      "line1" : "637 Hayes Course",
+      "city" : "New Lowell",
+      "region" : "PA",
+      "postalCode" : "52220"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "mikaela.mckenzie@yahoo.com"
+  },
+  "recipient" : {
+    "tin" : "000-08-9247",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Damion",
+      "last" : "Abernathy"
+    },
+    "address" : {
+      "line1" : "03367 Wunsch Motorway",
+      "city" : "Jaeside",
+      "region" : "SD",
+      "postalCode" : "40971"
+    },
+    "email" : "marco.gaylord@gmail.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "foreignAccountTaxCompliance" : true,
+  "accountNumber" : "465-38746-8",
+  "payerRtn" : "payerRtn",
+  "interestIncome" : 200,
+  "earlyWithdrawalPenalty" : 300,
+  "usBondInterest" : 400,
+  "federalTaxWithheld" : 500,
+  "investmentExpenses" : 600,
+  "foreignTaxPaid" : 700,
+  "foreignCountry" : "foreignCountry",
+  "taxExemptInterest" : 800,
+  "specifiedPabInterest" : 900,
+  "marketDiscount" : 1000,
+  "bondPremium" : 1100,
+  "usBondPremium" : 1200,
+  "taxExemptBondPremium" : 1300,
+  "cusipNumber" : "cusipNumber",
+  "stateAndLocal" : [ {
+    "stateCode" : "AA",
+    "state" : {
+      "taxWithheld" : 1400,
+      "taxId" : "54-484350",
+      "income" : 1500
+    },
+    "local" : {
+      "taxWithheld" : 1600,
+      "localityName" : "Port Ramonashire",
+      "income" : 1700
+    }
+  } ],
+  "foreignIncomes" : [ {
+    "description" : "Description",
+    "amount" : 1800
+  } ],
+  "stateTaxExemptIncome" : [ {
+    "description" : "Description",
+    "amount" : 1900
+  } ],
+  "secondTinNotice" : true
+}
