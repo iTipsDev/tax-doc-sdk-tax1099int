@@ -1,0 +1,89 @@
+{
+  "statements" : [ {
+    "forms" : [ {
+      "tax1099Int" : {
+        "taxYear" : 2024,
+        "corrected" : false,
+        "accountId" : "38-100-6720",
+        "issuer" : {
+          "tin" : "00-0217588",
+          "partyType" : "BUSINESS",
+          "businessName" : {
+            "name1" : "Langworth LLC"
+          },
+          "address" : {
+            "line1" : "874 Sheldon Curve",
+            "city" : "Tonjaburgh",
+            "region" : "NE",
+            "postalCode" : "86799"
+          },
+          "phone" : {
+            "number" : "555-867-5309",
+            "primary" : false
+          },
+          "email" : "stevie.berge@gmail.com"
+        },
+        "recipient" : {
+          "tin" : "000-64-2983",
+          "partyType" : "INDIVIDUAL",
+          "individualName" : {
+            "first" : "Alvin",
+            "last" : "McLaughlin"
+          },
+          "address" : {
+            "line1" : "80307 Berenice Bridge",
+            "city" : "East Yong",
+            "region" : "IL",
+            "postalCode" : "69519"
+          },
+          "phone" : {
+            "primary" : false
+          },
+          "email" : "johnnie.medhurst@yahoo.com"
+        },
+        "attributes" : [ ],
+        "links" : [ ],
+        "foreignAccountTaxCompliance" : true,
+        "accountNumber" : "798-17733-0",
+        "payerRtn" : "payerRtn",
+        "interestIncome" : 200,
+        "earlyWithdrawalPenalty" : 300,
+        "usBondInterest" : 400,
+        "federalTaxWithheld" : 500,
+        "investmentExpenses" : 600,
+        "foreignTaxPaid" : 700,
+        "foreignCountry" : "foreignCountry",
+        "taxExemptInterest" : 800,
+        "specifiedPabInterest" : 900,
+        "marketDiscount" : 1000,
+        "bondPremium" : 1100,
+        "usBondPremium" : 1200,
+        "taxExemptBondPremium" : 1300,
+        "cusipNumber" : "cusipNumber",
+        "stateAndLocal" : [ {
+          "stateCode" : "AA",
+          "state" : {
+            "taxWithheld" : 1400,
+            "taxId" : "26-738809",
+            "income" : 1500
+          },
+          "local" : {
+            "taxWithheld" : 1600,
+            "localityName" : "Port Agustinberg",
+            "income" : 1700
+          }
+        } ],
+        "foreignIncomes" : [ {
+          "description" : "Description",
+          "amount" : 1800
+        } ],
+        "stateTaxExemptIncome" : [ {
+          "description" : "Description",
+          "amount" : 1900
+        } ],
+        "secondTinNotice" : true
+      }
+    } ],
+    "attributes" : [ ]
+  } ]
+}

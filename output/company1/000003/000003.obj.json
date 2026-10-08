@@ -1,0 +1,96 @@
+{
+  "taxYear" : 2026,
+  "accountId" : "71-002-7753",
+  "taxFormId" : "2617606",
+  "taxFormDate" : "2026-12-31",
+  "issuer" : {
+    "tin" : "00-0040512",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "Friesen-Gleichner"
+    },
+    "address" : {
+      "line1" : "101 Salvatore Points",
+      "city" : "Tremblaymouth",
+      "region" : "IA",
+      "postalCode" : "59661",
+      "unitType" : "Apt",
+      "unitNumber" : "928"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "ciara.bahringer@gmail.com"
+  },
+  "recipient" : {
+    "tin" : "000-73-7860",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Lilliana",
+      "middle" : "Clelia",
+      "last" : "Macejkovic"
+    },
+    "businessName" : {
+      "name1" : "Lehner-Weber"
+    },
+    "address" : {
+      "line1" : "514 Rogahn Square",
+      "city" : "Gaylordberg",
+      "region" : "TX",
+      "postalCode" : "89718",
+      "unitType" : "Apt",
+      "unitNumber" : "974"
+    },
+    "email" : "ryan.hamill@hotmail.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "foreignAccountTaxCompliance" : true,
+  "accountNumber" : "172-73631-3",
+  "payerRtn" : "716250739",
+  "interestIncome" : 200,
+  "earlyWithdrawalPenalty" : 300,
+  "usBondInterest" : 400,
+  "federalTaxWithheld" : 500,
+  "investmentExpenses" : 600,
+  "foreignTaxPaid" : 700,
+  "foreignCountry" : "Guatemala",
+  "taxExemptInterest" : 800,
+  "specifiedPabInterest" : 900,
+  "marketDiscount" : 1000,
+  "bondPremium" : 1100,
+  "usBondPremium" : 1200,
+  "taxExemptBondPremium" : 1300,
+  "cusipNumber" : "cusipNumber",
+  "stateAndLocal" : [ {
+    "stateCode" : "AA",
+    "state" : {
+      "taxWithheld" : 2300,
+      "taxId" : "74-297107",
+      "income" : 2400
+    },
+    "local" : {
+      "taxWithheld" : 2500,
+      "localityName" : "Dietrichside",
+      "income" : 2600
+    }
+  } ],
+  "foreignIncomes" : [ {
+    "description" : "CA SDI",
+    "amount" : 2700
+  } ],
+  "stateTaxExemptIncome" : [ {
+    "description" : "CA SDI",
+    "amount" : 2800
+  } ],
+  "nomineeAdjustment" : 1400,
+  "oidAdjustment" : 1500,
+  "bondPremiumAdjustment" : 1600,
+  "usBondPremiumAdjustment" : 1700,
+  "exemptBondPremiumAdjustment" : 1800,
+  "privateActivityBondAdjustment" : 1900,
+  "accruedInterestAdjustment" : 2000,
+  "usSavingsBondAdjustment" : 2100,
+  "otherAdjustment" : 2200,
+  "secondTinNotice" : true
+}
